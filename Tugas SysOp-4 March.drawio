@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net" modified="2024-03-02T04:44:58.822Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="VqXAVLC0jnrLiUhpLnuQ" version="24.0.0" type="device">
+  <diagram name="Halaman-1" id="8HDZXUvHtdOAd7J-nHpc">
+    <mxGraphModel dx="1466" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-lItyDOMGHjvewm-KuOi-3" value="Power ON&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Computer mulai menyalakan daya yang di dapatkan dari power supply&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-6" value="POST BIOS&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BIOS mulai menginilisasi hardware seperti CPU, RAM, SSD&amp;nbsp; dll.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="160" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-7" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;Load BOOT loader&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: 400; text-align: left; white-space-collapse: preserve;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Setelah perangkat boot ditemukan, BIOS atau UEFI memuat boot loader dari sektor awal perangkat boot tersebut ke dalam memori.&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="597" y="160" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-8" value="Inisialisasi OS loader&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;BOOT mulai memuat sistem operasi seperti windows, linux, macOS dari penyimpanan ke memori&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="410" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-9" value="Load Operating System&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;setelah boot memuat sistem operasi, pengguna akan di sajikan dengan halaman depan sistem operasi.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="410" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-10" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="-lItyDOMGHjvewm-KuOi-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="360" as="sourcePoint" />
+            <mxPoint x="190" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-11" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="-lItyDOMGHjvewm-KuOi-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="360" as="sourcePoint" />
+            <mxPoint x="480" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-12" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="360" as="sourcePoint" />
+            <mxPoint x="720" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="360" as="sourcePoint" />
+            <mxPoint x="720" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-14" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-lItyDOMGHjvewm-KuOi-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="400" as="sourcePoint" />
+            <mxPoint x="300" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-15" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="-lItyDOMGHjvewm-KuOi-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579.88" y="410" as="sourcePoint" />
+            <mxPoint x="579.88" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-18" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="-lItyDOMGHjvewm-KuOi-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="720" as="sourcePoint" />
+            <mxPoint x="390" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="-lItyDOMGHjvewm-KuOi-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="720" as="sourcePoint" />
+            <mxPoint x="590" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-20" value="Ready to use&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Computer siap untuk di gunakan&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-21" value="PROSES BOOTING&amp;nbsp;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=19;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="320" y="50" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-lItyDOMGHjvewm-KuOi-22" value="Muhammad Rasyid Nuruddin (3123521015)" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="80" width="150" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
